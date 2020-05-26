@@ -1,3 +1,3 @@
-module.exports.postLogin = async function(req, res) {
-  res.json({name: 'linh', passw})
+module.exports.postLogin = function(req, res) {
+  res.json({name: 'linh', password: '123456'});
 };
